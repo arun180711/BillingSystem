@@ -141,6 +141,7 @@ public:
             }
     seqFileOut.open("sequeceFile.txt", ios::out);
     seqFileOut << fileSeq;
+	    cout << "YOUR RECEIPT IS SENT TO YOU!!";
     }
 };
 
